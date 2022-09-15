@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&family=Rubik+Maze&family=Source+Code+Pro:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Orbitron:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #6FDFDF;
+    height: 100%;
+}
+
+h1{ background-color: #5534A5;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    /* margin-bottom: 5px; */
+}
+h3{
+    margin-bottom: 5px;
+    font-family:'Lato', sans-serif; 
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+
+   
+    
+}
+.display{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+textarea{
+    border-radius: 12px;
+    border: 3px solid rgb(255, 255, 255) ;
+    background-color: darkgray;
+    width:40%;
+    padding: 10px;
+    font-size: larger;
+    /* font-family: 'Fira Code', monospace; */
+}
+
+
+.container{
+    border: 6px solid #A85CF9;
+    border-style:double;
+    border-radius: 40px;
+    margin: 25px;
+    width: 70%;
+    animation: borderdiv 1s infinite ;
+    
+
+}
+#input{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+#output{
+    font-family: 'Fira Code', monospace;
+    font-weight: bolder;
+}
+button{
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #646FD4;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    /* margin: 25px;
+    
+    border: 2px solid #A85CF9 ;
+    border-radius: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: large; */
+
+}
+button:active {
+    background-color: #242F9B;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+a{
+    text-decoration: none;
+}
+.footer{
+    margin-top: 50px;
+    padding-top: 2px;
+    /* position: fixed; */
+    bottom: 0;
+    /* width: 100%; */
+   
+}
+h4#ayeen{
+    font-family: 'Fira Code', monospace;
+   font-size: larger;
+    padding-top: 8px;
+    background-color: black;
+    color: white;
+   
+    
+}
+
+@keyframes borderdiv {
+    from{border: 6px double #A85CF9}
+    to{border: 6px double #4a009a;}}
+h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(122, 135, 249), 0 0 20px rgb(172, 168, 255), 0 0 30px #72dfeb, 0 0 40px #72dfeb, 0 0 50px #72dfeb, 0 0 60px #72dfeb, 0 0 70px #72dfeb;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(167, 169, 255), 0 0 30px #458cf0, 0 0 40px #458cf0, 0 0 50px #458cf0, 0 0 60px #458cf0, 0 0 70px #458cf0, 0 0 80px #458cf0;
+    }
+  }
+
+
+@media only screen and (max-width: 700px) {
+    h1{ font-weight:lighter;
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: x-large;
+    }
+    textarea{
+        width: 70%;
+    }
+    .footer{
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+  
+    }
