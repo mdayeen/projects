@@ -1,2 +1,2 @@
 <!-- projects-->
-<h1>have a views on my projects</h1>
+<h1>Websites projects build in the course of bootcamp </h1>
